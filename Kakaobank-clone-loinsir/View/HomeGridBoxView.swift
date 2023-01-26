@@ -10,47 +10,70 @@ import SwiftUI
 struct HomeGridBoxView: View {
     
     var title: String
+    var titleFont = Font.system(size: 30, weight: .semibold)
     var titleColor: Color = .black
     var subtitle: String
     var subtitleColor: Color = .gray
-    var imageName: String
+    var imageName: String? = nil
     var backgroundColor: Color
-    var size: CGSize
+    
+    var bottomTitle: String? = nil
+    var bottomDate: String? = nil
     
     var body: some View {
         
         GeometryReader { geometry in
             VStack(alignment: .leading, spacing: 5) {
                 Text(title)
+                    .frame(width: .infinity)
                     .foregroundColor(titleColor)
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
+                    .font(titleFont)
+                    .minimumScaleFactor(1)
+                    .offset(x: 10, y: 10)
                 
                 Text(subtitle)
+                    .frame(width: .infinity)
                     .foregroundColor(subtitleColor)
                     .fontWeight(.medium)
+                    .offset(x: 10, y: 10)
+                
+                Spacer()
+                
+                if let imageName = imageName {
+                    Image(systemName: imageName ?? "")
+                        .resizable()
+                        .renderingMode(.template)
+                        .scaledToFit()
+                        .frame(width: 45, height:  45 / 257 * geometry.size.height, alignment: .trailing)
+                        .alignmentGuide(.leading, computeValue: { d in
+                            d[.leading] - geometry.size.width + 55
+                        })
+                        .foregroundColor(Color(white: 0.6, opacity: 1))
+                        .padding(EdgeInsets(top: 0, leading: 0, bottom: 5, trailing: 0))
+                } else {
+                    VStack(alignment: .trailing, spacing: 5) {
+                        Text(bottomTitle ?? "")
+                            .foregroundColor(Color(uiColor: .gray))
+                        Text(bottomDate ?? "")
+                            .fontWeight(.medium)
+                            .foregroundColor(subtitleColor)
+                    }
+                    .alignmentGuide(.leading, computeValue: { d in
+                        d[.leading] - geometry.size.width + 130
+                    })
+                    .offset(y: -5)
+                }
             }
-            .position(x: geometry.size.width / 2.5,
-                      y: geometry.size.height / 6)
-            
-            Image(systemName: imageName)
-                .resizable()
-                .renderingMode(.template)
-                .foregroundColor(Color(white: 0, opacity: 0.2))
-                .scaledToFit()
-                .frame(width: 45, height: 45)
-                .position(x: geometry.size.width / 1.2,
-                          y: geometry.size.height / 1.15)
-            
-        }.frame(width: size.width,
-                height: size.height)
-         .background(backgroundColor)
-         .cornerRadius(size.height / 20)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(backgroundColor)
+        .cornerRadius(10)
     }
 }
 
 struct HomeBoxGridView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeGridBoxView(title: "10,400원", subtitle: "카카오페이증권", imageName: "creditcard", backgroundColor: .yellow, size: .init(width: 215, height: 255))
+        HomeGridBoxView(title: "10,400원", subtitle: "송금", imageName: "creditcard", backgroundColor: .yellow)
+            .frame(width: 214, height: 257)
     }
 }
