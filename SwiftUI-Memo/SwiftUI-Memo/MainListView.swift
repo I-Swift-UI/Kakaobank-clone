@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct MainListView: View {
-    @EnvironmentObject var memoGroup: MemoGroup
     
+    @EnvironmentObject var memoGroup: MemoGroup
+
     var body: some View {
         NavigationView {
             List(memoGroup.list) { memo in
@@ -22,6 +23,24 @@ struct MainListView: View {
             }
             .navigationTitle("Memo")
             .headerProminence(.increased)
+            .toolbar {
+                ToolbarItemGroup(placement: .bottomBar) {
+                    Spacer()
+                    
+                    NavigationLink {
+                        MemoEditView(memo: Memo(content: ""),
+                                     isNew: true)
+                            .environmentObject(memoGroup)
+                    } label: {
+                        Image(systemName: "square.and.pencil")
+                            .renderingMode(.template)
+                            .foregroundColor(.yellow)
+                    }
+                    .simultaneousGesture(TapGesture().onEnded ({ _ in
+                        memoGroup.list.insert(Memo(content: "새로운 메모"), at: 0)
+                    }))
+                }
+            }
         }
     }
 }

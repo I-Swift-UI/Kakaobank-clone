@@ -21,8 +21,8 @@ class MemoGroup: ObservableObject, Identifiable {
         ]
     }
     
-    func insert(memo: String) {
-        list.insert(Memo(content: memo), at: 0)
+    func insert(memo: Memo) {
+        list.insert(memo, at: 0)
     }
     
     func update(memo: Memo?, content: String) {
