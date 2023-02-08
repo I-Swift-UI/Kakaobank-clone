@@ -102,12 +102,10 @@
 		19B7F6F62988FFA600BC3FA1 /* SwiftUI-Memo */ = {
 			isa = PBXGroup;
 			children = (
+				19D2A95529895A3100636229 /* View */,
 				19B7F723298903A900BC3FA1 /* Model */,
 				19B7F6F72988FFA600BC3FA1 /* SwiftUI_MemoApp.swift */,
-				19B7F7212989039600BC3FA1 /* MainListView.swift */,
 				19B7F6FB2988FFA700BC3FA1 /* Assets.xcassets */,
-				19D2A951298923FA00636229 /* MemoCellView.swift */,
-				19D2A9532989245F00636229 /* MemoEditView.swift */,
 				19B7F6FD2988FFA700BC3FA1 /* Preview Content */,
 			);
 			path = "SwiftUI-Memo";
@@ -145,6 +143,16 @@
 				19B7F7262989044E00BC3FA1 /* MemoGroup.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		19D2A95529895A3100636229 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19B7F7212989039600BC3FA1 /* MainListView.swift */,
+				19D2A951298923FA00636229 /* MemoCellView.swift */,
+				19D2A9532989245F00636229 /* MemoEditView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

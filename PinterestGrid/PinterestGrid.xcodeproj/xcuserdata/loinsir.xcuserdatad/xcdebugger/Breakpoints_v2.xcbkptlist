@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "593505D0-26DD-49A4-B021-007DDA8A60A2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C806A60B-B587-4A60-AC0A-D25C31892C8D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PinterestGrid/Network/ImageSearchService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchImageData(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D27C9E54-6B9D-4EA8-BC4F-2983860C6EBD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PinterestGrid/Network/ImageSearchService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "fetchImageData(query:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D27C9E54-6B9D-4EA8-BC4F-2983860C6EBD - b7a2b84b3d08c080"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PinterestGrid.ImageSearchService.fetchImageData(query: Swift.String) -&gt; ()"
+                  moduleName = "PinterestGrid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loinsir/SwiftUI-loinsir/PinterestGrid/PinterestGrid/Network/ImageSearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "960">
+               </Location>
+               <Location
+                  uuid = "D27C9E54-6B9D-4EA8-BC4F-2983860C6EBD - 93ed98740b3d243e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;PinterestGrid.NetworkError&gt;) -&gt; () in PinterestGrid.ImageSearchService.fetchImageData(query: Swift.String) -&gt; ()"
+                  moduleName = "PinterestGrid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loinsir/SwiftUI-loinsir/PinterestGrid/PinterestGrid/Network/ImageSearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73C57A92-2815-4B66-A4CA-35C5B3AE2826"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PinterestGrid/Network/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "request(request:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "73C57A92-2815-4B66-A4CA-35C5B3AE2826 - f2ad061914ab96d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PinterestGrid.NetworkService.request(request: Foundation.URLRequest) -&gt; Combine.AnyPublisher&lt;Foundation.Data, PinterestGrid.NetworkError&gt;"
+                  moduleName = "PinterestGrid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loinsir/SwiftUI-loinsir/PinterestGrid/PinterestGrid/Network/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "73C57A92-2815-4B66-A4CA-35C5B3AE2826 - 39740f28cceeba84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in PinterestGrid.NetworkService.request(request: Foundation.URLRequest) -&gt; Combine.AnyPublisher&lt;Foundation.Data, PinterestGrid.NetworkError&gt;"
+                  moduleName = "PinterestGrid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loinsir/SwiftUI-loinsir/PinterestGrid/PinterestGrid/Network/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5217D9AB-4995-4402-A7A9-42C10AD07CB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PinterestGrid/Network/ImageSearchService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchImageData(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87679A47-7CDA-47D9-9793-6CE045D94CF8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PinterestGrid/Network/ImageSearchService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchImageData(query:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "87679A47-7CDA-47D9-9793-6CE045D94CF8 - b7a2b84b3d08c142"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PinterestGrid.ImageSearchService.fetchImageData(query: Swift.String) -&gt; ()"
+                  moduleName = "PinterestGrid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loinsir/SwiftUI-loinsir/PinterestGrid/PinterestGrid/Network/ImageSearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "636">
+               </Location>
+               <Location
+                  uuid = "87679A47-7CDA-47D9-9793-6CE045D94CF8 - b7a2b84b3d08c142"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PinterestGrid.ImageSearchService.fetchImageData(query: Swift.String) -&gt; ()"
+                  moduleName = "PinterestGrid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loinsir/SwiftUI-loinsir/PinterestGrid/PinterestGrid/Network/ImageSearchService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A212B552-2230-43CF-ADA2-FC98D20B0A45"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PinterestGrid/Network/RequestBuilder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "build()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A212B552-2230-43CF-ADA2-FC98D20B0A45 - f08fdfe393820c6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PinterestGrid.RequestBuilder.build() -&gt; Swift.Optional&lt;Foundation.URLRequest&gt;"
+                  moduleName = "PinterestGrid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loinsir/SwiftUI-loinsir/PinterestGrid/PinterestGrid/Network/RequestBuilder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "A212B552-2230-43CF-ADA2-FC98D20B0A45 - f08fdfe393820c6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PinterestGrid.RequestBuilder.build() -&gt; Swift.Optional&lt;Foundation.URLRequest&gt;"
+                  moduleName = "PinterestGrid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loinsir/SwiftUI-loinsir/PinterestGrid/PinterestGrid/Network/RequestBuilder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "A212B552-2230-43CF-ADA2-FC98D20B0A45 - f08fdfe393820c6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PinterestGrid.RequestBuilder.build() -&gt; Swift.Optional&lt;Foundation.URLRequest&gt;"
+                  moduleName = "PinterestGrid"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/loinsir/SwiftUI-loinsir/PinterestGrid/PinterestGrid/Network/RequestBuilder.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "816">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
